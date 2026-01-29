@@ -13,6 +13,11 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_pushButton_2_clicked()
+{
+    ui->pushButton_2->setText("Click!");
+}
+
 void MainWindow::on_pushButton_clicked()
 {
     ui->pushButton->setText("Click!");
@@ -22,4 +27,7 @@ void MainWindow::on_pushButton_2_clicked()
 {
 
 }
+
+
+
 
